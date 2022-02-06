@@ -10,7 +10,7 @@ from untils import *
 from cfg import API_TOKEN
 import logging
 
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level = logging.INFO)
 
 # Initialize bot and dispatcher, storage
 bot = Bot(token = API_TOKEN)
@@ -286,7 +286,7 @@ def calories_function():
 if __name__ == '__main__':
     try:
         print('Works...')
-        executor.start_polling(dp, skip_updates=True)
+        executor.start_polling(dp, skip_updates = True)
     except:
         print('Error at startup!')
     finally:
