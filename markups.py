@@ -1,7 +1,7 @@
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup, KeyboardButton
 
 # For menu
-btnCalories = KeyboardButton(text = '🍩 Рассчитать каллории')
+btnCalories = KeyboardButton(text = '🍩 Рассчитать калории')
 btnBmi = KeyboardButton(text = '🧘‍♀️ ИМТ')
 
 # Share bot
