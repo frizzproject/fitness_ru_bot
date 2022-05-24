@@ -7,7 +7,7 @@ import aiogram.utils.markdown as md
 from aiogram.types import ParseMode
 from storage import FORM_DATA, FORM_DATA_BMI
 from markups import kb_menu, kb_share, kb_gender, kb_active, kb_formuls, BMI_NORMS_URL
-from untils import *
+from utils import *
 
 """     
 COMMANDS HANDLER
